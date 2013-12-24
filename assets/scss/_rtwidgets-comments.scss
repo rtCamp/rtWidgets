@@ -1,0 +1,25 @@
+/*
+ * Recent Comment with Gravatar Widget
+ * 
+ * @since rtWidget 1.0
+ */
+.rtw-comments-widget {
+    p { margin: 0; }
+    figure { position: relative; z-index: 100; }
+    ul { margin-left: 0; }
+    li { list-style: none; margin: 10px 0; @include rtw-border-bottom();
+         &:last-child { border-bottom: 0; margin-bottom: 0; 
+                        .rtw-reply { margin-bottom: 0; }
+         }
+    }
+    .author-comment { line-height: 1.385em; margin: 5px 0; clear: both; }
+    .rtw-comment-date { padding: 0; margin: 1rem 0; }
+    .author-vcard {
+        img { @include border-radius(1000px); float: left; margin: 5px; }
+    }
+    .alignright img { margin: 5px; }
+    .rtw-reply { clear: none; padding: 0; margin: 0 0 10px 0;
+                 a { margin: 0; }
+    }
+    .rtw-margin-0 { margin: 0; }
+}

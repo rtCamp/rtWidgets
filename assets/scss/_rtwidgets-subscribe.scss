@@ -1,0 +1,46 @@
+/*
+ * Subscribe Widget Style
+ *
+ * @since rtWidget 1.0
+ */
+.email-subscription-container { 
+    p { margin: 0; }
+    label { display: block; margin: 0 0 5px; }
+    .email { float: left; width: 70%; }
+}
+
+/* Social Connect */
+ul.social-icons { margin: 0; }
+.social-icons {
+    li { float: left;list-style: none;margin: 10px 8px 0 0;padding: 0;
+         &:last-child { margin-right: 0; }
+    }
+    a { background-color: #666;color: white;display: block;height: 30px;font-size: 1.25rem;line-height: 30px;margin: 0;overflow: hidden;padding: 0;text-align: center;text-decoration: none;width: 30px;
+        &:hover { background-color: #2592C3; } 
+    }
+
+    .rss:hover { background-color: #FAA33D; }
+    .facebook:hover { background-color: #537BBD; }
+    .github-circled:hover { background-color: #3F91CB; }
+    .youtube:hover { background-color: #C2302A; }
+    .flickr-circled:hover { background-color: #ED006D; }
+    .vimeo:hover { background-color: #33454E; }
+    .twitter:hover { background-color: #40BFF5; }
+    .gplus:hover { background-color: #DD4B39; }
+    .pinterest:hover { background-color: #D62229; }
+    .linkedin:hover { background-color: #2085C7; }
+    .stumbleupon:hover { background-color: #EB4923; }
+    .instagram:hover { background-color: #49769C; }
+    .paypal:hover { background-color: #336698; }
+    .picasa:hover { background-color: #F93537; }
+    .soundcloud:hover { background-color: #F69330; }
+    .wordpress:hover { background-color: #2592C3; }
+    .blogger:hover { background-color: #FE6700; }
+    .delicious:hover { background-color: #4343FB; }
+    .deviantart:hover { background-color: #C8DA30; }
+    .digg:hover { background-color: #1B5891; }
+    .foursquare:hover { background-color: #1EB4E6; }
+    .reddit:hover { background-color: #FC4406; }
+    .stackoverflow:hover { background-color: #F47A20; }
+    .tumblr:hover { background-color: #32506A; }
+}

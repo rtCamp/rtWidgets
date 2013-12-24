@@ -1,0 +1,9 @@
+/*
+ * Utility Styles
+ *
+ * @since rtWidget 1.0
+ */
+
+.clearfix { @include clearfix; }
+.rtw-radius { @include border-radius(1000px); }
+.rtw-margin-bottom-10 { margin-bottom: 10px; }
