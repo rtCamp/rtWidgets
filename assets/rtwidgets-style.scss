@@ -1,0 +1,160 @@
+/*!
+ * rtWidgets Plugin Style
+ * 
+ * Used for Frontend
+ * 
+ * @since rtWidget 1.0
+ */
+
+// Include Compass Library
+@import "compass";
+
+// It strips the unit of measure and returns it
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+// New Syntax, allows to optionally calculate on a different base value to counter compounding effect of rem's.
+// Call with 1, 2, 3 or 4 parameters, 'px' is not required but supported
+// rem-calc(10 20 30px 40);
+// Space delimited, if you want to delimit using comma's, wrap it in another pair of brackets
+// rem-calc((10, 20, 30, 40px));
+// Optionally call with a different base (eg: 8px) to calculate rem.
+// rem-calc(16px 32px 48px, 8px);
+// If you require to comma separate your list
+// rem-calc((16px, 32px, 48), 8px);
+$rem-base: 16px;
+@function convert-to-rem($value, $base-value: $rem-base)  {
+  $value: strip-unit($value) / strip-unit($base-value) * 1rem;
+  @if ($value == 0rem) { $value: 0; } // Turn 0rem into 0
+  @return $value;
+}
+
+@function rem-calc($values, $base-value: $rem-base) {
+  $max: length($values);
+
+  @if $max == 1 { @return convert-to-rem(nth($values, 1), $base-value); }
+
+  $remValues: ();
+  @for $i from 1 through $max {
+    $remValues: append($remValues, convert-to-rem(nth($values, $i), $base-value));
+  }
+  @return $remValues;
+}
+
+// Transitions
+@mixin rtw-transition($property: all, $time: 0.4s, $animation: linear ) {
+    @include transition($property $time $animation);
+}
+
+// Border 1px
+@mixin rtw-border($width: 1px, $style: solid, $color: #DDDDDD) {
+    border: $width $style $color;
+}
+
+// Border 1px
+@mixin rtw-border-bottom($width: 1px, $style: solid, $color: #DDDDDD) {
+    border-bottom: $width $style $color;
+}
+
+// We use this to do clear floats
+@mixin clearfix {
+  *zoom:1;
+  &:before, &:after { content: " "; display: table; }
+  &:after { clear: both; }
+}
+.clearfix { @include clearfix; }
+
+.rtw-radius { @include border-radius(1000px); }
+.rtw-margin-bottom-10 { margin-bottom: 10px; }
+
+/* Subscribe Widget */
+.email-subscription-container { 
+    p { margin: 0; }
+    label { display: block; margin: 0 0 5px; }
+    .email { float: left; width: 70%; }
+}
+
+/* Social Connect */
+ul.social-icons { margin: 0; }
+.social-icons {
+    li { float: left;list-style: none;margin: 10px 8px 0 0;padding: 0;
+         &:last-child { margin-right: 0; }
+    }
+    a { background-color: #666;color: white;display: block;height: 30px;font-size: 1.25rem;line-height: 30px;margin: 0;overflow: hidden;padding: 0;text-align: center;text-decoration: none;width: 30px;
+        &:hover { background-color: #2592C3; } 
+    }
+
+    .rss:hover { background-color: #FAA33D; }
+    .facebook:hover { background-color: #537BBD; }
+    .github-circled:hover { background-color: #3F91CB; }
+    .youtube:hover { background-color: #C2302A; }
+    .flickr-circled:hover { background-color: #ED006D; }
+    .vimeo:hover { background-color: #33454E; }
+    .twitter:hover { background-color: #40BFF5; }
+    .gplus:hover { background-color: #DD4B39; }
+    .pinterest:hover { background-color: #D62229; }
+    .linkedin:hover { background-color: #2085C7; }
+    .stumbleupon:hover { background-color: #EB4923; }
+    .instagram:hover { background-color: #49769C; }
+    .paypal:hover { background-color: #336698; }
+    .picasa:hover { background-color: #F93537; }
+    .soundcloud:hover { background-color: #F69330; }
+    .wordpress:hover { background-color: #2592C3; }
+    .blogger:hover { background-color: #FE6700; }
+    .delicious:hover { background-color: #4343FB; }
+    .deviantart:hover { background-color: #C8DA30; }
+    .digg:hover { background-color: #1B5891; }
+    .foursquare:hover { background-color: #1EB4E6; }
+    .reddit:hover { background-color: #FC4406; }
+    .stackoverflow:hover { background-color: #F47A20; }
+    .tumblr:hover { background-color: #32506A; }
+}
+
+/* Recent Comment with Gravatar Widget */
+.rtw-comments-widget {
+    p { margin: 0; }
+    figure { position: relative; z-index: 100; }
+    ul { margin-left: 0; }
+    li { list-style: none; margin: 10px 0; @include rtw-border-bottom();
+         &:last-child { border-bottom: 0; margin-bottom: 0; 
+                        .rtw-reply { margin-bottom: 0; }
+         }
+    }
+    .author-comment { line-height: 1.385em; margin: 5px 0; clear: both; }
+    .rtw-comment-date { padding: 0; margin: 1rem 0; }
+    .author-vcard {
+        img { @include border-radius(1000px); float: left; margin: 5px; }
+    }
+    .alignright img { margin: 5px; }
+    .rtw-reply { clear: none; padding: 0; margin: 0 0 10px 0;
+                 a { margin: 0; }
+    }
+    .rtw-margin-0 { margin: 0; }
+}
+
+/*
+ * Login Widget Style
+ */
+#rtw-login-container {
+    p { margin-bottom: rem-calc(10); }
+    .tabs {
+        margin: 0;
+        & > li { float: left;padding: 0;list-style: none;border-left: 1px solid #DDD;display: block;line-height: 38px;height: 38px;overflow: hidden; }
+        & > li:first-child {
+            border-left: 0;
+            a { @include border-radius(10px 0 0 0); }
+        } 
+        & > li:last-child a { @include border-radius(0 10px 0 0); }
+        
+        li > a { background: #EFEFEF; padding: rem-calc(10 12px); text-decoration: none;
+            &:hover, &:active, &:focus { background: #f7f7f7; text-decoration: none; }
+        }
+        li.ui-state-active a { background: #f7f7f7; }
+    }
+    
+    .tabs-content { 
+        & > .content { float: none; }
+        & > .content.contained {  }
+    }
+}

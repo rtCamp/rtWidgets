@@ -1,0 +1,483 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rtWidgets 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-24 17:28+0530\n"
+"PO-Revision-Date: 2013-12-24 17:28+0530\n"
+"Last-Translator: rtCamp <support@rtcamp.com>\n"
+"Language-Team: rtCampers <support@rtcamp.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../rtwidgets-main.php:137 ../admin/rtwidgets-options.php:50
+msgid "rtWidgets Settings"
+msgstr ""
+
+#: ../rtwidgets-main.php:137
+msgid "Settings"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:14
+msgid "A list or dropdown of categories with extra options."
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:16
+msgid "rtw: Categories"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:31
+msgid "Categories"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:118 ../lib/rtwidgets-login.php:179
+#: ../lib/rtwidgets-subscribe.php:204 ../lib/rtwidgets-comments.php:111
+msgid "Title"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:122
+msgid "Order by"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:124
+msgid "Category Name"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:125
+msgid "Category ID"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:126
+msgid "Category Count"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:127
+msgid "Category Slug"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:131
+msgid "Sort by"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:133
+msgid "Ascending"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:134
+msgid "Descending"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:138
+msgid "Show Category"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:140
+msgid "Total Categories"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:143
+msgid "Style"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:145
+msgid "List"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:146
+msgid "Dropdown"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:150
+msgid "Exclude"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:152
+msgid "Separate Category ID with \",\""
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:152
+msgid "Ex: 1,5,15"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:156
+msgid "Show Hierarchy"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:160
+msgid "Hide Empty"
+msgstr ""
+
+#: ../lib/rtwidgets-category.php:164
+msgid "Show post counts"
+msgstr ""
+
+#: ../lib/rtwidgets-multiple-menu.php:14
+msgid "Use this widget to add multiple menus in a single widget."
+msgstr ""
+
+#: ../lib/rtwidgets-multiple-menu.php:16
+msgid "rtw: Multiple Menus"
+msgstr ""
+
+#: ../lib/rtwidgets-multiple-menu.php:75
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: ../lib/rtwidgets-multiple-menu.php:80
+msgid "Title:"
+msgstr ""
+
+#: ../lib/rtwidgets-multiple-menu.php:84 ../lib/rtwidgets-multiple-menu.php:96
+msgid "Select Menu:"
+msgstr ""
+
+#: ../lib/rtwidgets-multiple-menu.php:92
+msgid "Menu Title:"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:14
+msgid "Provide fontend login, registration and forget password option"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:16
+msgid "rtw: Frontend Login"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:43 ../lib/rtwidgets-login.php:77
+msgid "Login"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:44
+msgid "Register"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:45
+msgid "Forgot?"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:52 ../lib/rtwidgets-login.php:55
+msgid "Success!"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:53
+msgid "Check your email for the password and then return to log in."
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:56
+msgid "Check your email to reset your password."
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:58
+msgid "Have an account?"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:59
+msgid "Log in or sign up! It&rsquo;s fast &amp; <em>free!</em>"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:63 ../lib/rtwidgets-login.php:88
+msgid "Username"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:65 ../lib/rtwidgets-login.php:89
+msgid "Enter Username"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:68
+msgid "Password"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:69
+msgid "Enter Password"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:74
+msgid "Remember me"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:84
+msgid "Register for this site!"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:85
+msgid "Sign up now for the good stuff."
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:92
+msgid "Your Email"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:94 ../lib/rtwidgets-subscribe.php:112
+msgid "Enter Email Address"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:98
+msgid "Sign up!"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:102
+msgid "Check your email for the password!"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:110
+msgid "Lose something?"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:111
+msgid "Enter your username or email to reset your password."
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:114
+msgid "Username or Email"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:115
+msgid "Enter Username or Email ID"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:119
+msgid "Reset my password"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:122
+msgid "A message will be sent to your email address."
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:132
+msgid "Welcome,"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:139
+msgid "You&rsquo;re logged in as"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:141
+msgid "Log out"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:143
+msgid "Admin"
+msgstr ""
+
+#: ../lib/rtwidgets-login.php:145
+msgid "Profile"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:16
+msgid ""
+"Widget for email subscription form and Social Icons such as Facebook, "
+"Twitter, etc."
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:18
+msgid "rtw: Subscribe Widget"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:32
+msgid "Like Us on Facebook"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:33
+msgid "Facebook Link"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:37
+msgid "Follow Us on Twitter"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:38
+msgid "Twitter Link"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:42
+msgid "Add to Circle"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:43
+msgid "Google + Link"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:47
+msgid "Subscribe via RSS"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:48
+msgid "RSS Feed Link"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:83 ../lib/rtwidgets-subscribe.php:163
+#: ../lib/rtwidgets-subscribe.php:195
+msgid "Subscribe"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:147
+#, php-format
+msgid ""
+"Please configure this widget <a href=\"%s\" target=\"_blank\" title="
+"\"Configure Subscribe Widget\">here</a>."
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:194
+msgid "Sign up for our email newsletter"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:210
+msgid "Subscription"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:214
+msgid "Show Subscription"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:219
+msgid "Feedburner Subscription: (Handler)"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:223
+msgid "MailChimp: (Form Action URL)"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:226
+msgid "Enter Subscription URL"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:229
+msgid "Feedburner Form Label"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:233
+msgid "Feedburner Form Button"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:240
+msgid "Social Connect"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:243
+msgid "Drag each item into the order you prefer"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:266
+msgid "Open Social Links in New Tab/Window"
+msgstr ""
+
+#: ../lib/rtwidgets-comments.php:14
+msgid ""
+"Shows Recent Comments with an option for displaying Author Gravatar also."
+msgstr ""
+
+#: ../lib/rtwidgets-comments.php:16
+msgid "rtw: Comments with Gravatar"
+msgstr ""
+
+#: ../lib/rtwidgets-comments.php:31
+msgid "Recent Comments"
+msgstr ""
+
+#: ../lib/rtwidgets-comments.php:34 ../lib/rtwidgets-comments.php:107
+msgid "Read More &rarr;"
+msgstr ""
+
+#: ../lib/rtwidgets-comments.php:115
+msgid "Show Gravatar"
+msgstr ""
+
+#: ../lib/rtwidgets-comments.php:119
+msgid "Show Comments"
+msgstr ""
+
+#: ../lib/rtwidgets-comments.php:121
+#, php-format
+msgid "You have total '%d' comments to display"
+msgstr ""
+
+#: ../lib/rtwidgets-comments.php:124
+msgid "Read More Text"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:29
+msgid "rtWidgets Admin Settings"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:29 ../admin/rtwidgets-options.php:42
+msgid "rtWidgets Options"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:48 ../admin/rtwidgets-options.php:60
+#: ../admin/rtwidgets-options.php:72 ../admin/rtwidgets-options.php:104
+#: ../admin/rtwidgets-options.php:114
+msgid "Click to toggle"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:62
+msgid "Getting Social is Good"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:65
+msgid "Become a fan on Facebook"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:66
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:67
+msgid "Subscribe to our feeds"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:74
+msgid "Promote, Donate, Share"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:77
+#, php-format
+msgid ""
+"Buy coffee/beer for team behind <a href=\"%s\" title=\"rtPanel\">rtPanel</a>."
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:87
+msgid "PayPal - The safer, easier way to pay online!"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:93
+msgid "Tweet"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:106
+msgid "Free Support"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:109
+#, php-format
+msgid ""
+"If you are facing any problems while using rtPanel, or have good ideas for "
+"improvements, please discuss the same in our <a href=\"%s\" target=\"_blank"
+"\" title=\"Click here for rtPanel Free Support\">Support forums</a>"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:116
+msgid "Latest News"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:128
+msgid "No items"
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:132
+msgid "Posted "
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:202
+msgid "Check/Uncheck below checkboxs to enable OR disable widgets."
+msgstr ""
+
+#: ../admin/rtwidgets-options.php:219
+msgid "Enable Widget"
+msgstr ""
