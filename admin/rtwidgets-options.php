@@ -41,20 +41,20 @@ class rtWidgetsOptions {
         <div class="wrap rtwidgets-admin">
             <h2><?php _e( 'rtWidgets Options', $rtwidgets->rtwidgets_text_domain ); ?></h2>
             <div id="poststuff">
-                <form method="post" action="options.php">
                     <?php settings_fields( 'rtw_option_group' ); // This prints out all hidden setting fields ?>
                     <div id="post-body" class="metabox-holder columns-<?php echo 1 == get_current_screen()->get_columns() ? '1' : '2'; ?>">
-                        <div id="post-body-content" class="postbox">
-                            <div title="<?php _e( 'Click to toggle', $rtwidgets->rtwidgets_text_domain ); ?>" class="handlediv"><br></div>
-                            <h3 class="hndle">
-                                <span><?php _e( 'rtWidgets Settings', $rtwidgets->rtwidgets_text_domain ); ?></span>
-                            </h3>
-                            <div class="inside"><?php
-                                do_settings_sections( 'rtwidgets-options' );
-                                submit_button(); ?>
+                        <form method="post" action="options.php">
+                            <div id="post-body-content" class="postbox">
+                                <div title="<?php _e( 'Click to toggle', $rtwidgets->rtwidgets_text_domain ); ?>" class="handlediv"><br></div>
+                                <h3 class="hndle">
+                                    <span><?php _e( 'rtWidgets Settings', $rtwidgets->rtwidgets_text_domain ); ?></span>
+                                </h3>
+                                <div class="inside"><?php
+                                    do_settings_sections( 'rtwidgets-options' );
+                                    submit_button(); ?>
+                                </div>
                             </div>
-                        </div>
-
+                        </form>
                         <div id="postbox-container-1" class="postbox-container">
                             <div class="postbox" id="social">
                                 <div title="<?php _e( 'Click to toggle', $rtwidgets->rtwidgets_text_domain ); ?>" class="handlediv"><br /></div>
@@ -64,6 +64,7 @@ class rtWidgetsOptions {
                                 <div style="text-align:center;" class="inside">
                                     <a class="rtw-facebook" title="<?php _e( 'Become a fan on Facebook', $rtwidgets->rtwidgets_text_domain ); ?>" target="_blank" href="http://www.facebook.com/rtCamp.solutions/"></a>
                                     <a class="rtw-twitter" title="<?php _e( 'Follow us on Twitter', $rtwidgets->rtwidgets_text_domain ); ?>" target="_blank" href="https://twitter.com/rtcamp/"></a>
+                                    <a class="rtw-gplus" title="<?php _e( 'Add to Circle', $rtwidgets->rtwidgets_text_domain ); ?>" target="_blank" href="https://plus.google.com/110214156830549460974/posts"></a>
                                     <a class="rtw-rss" title="<?php _e( 'Subscribe to our feeds', $rtwidgets->rtwidgets_text_domain ); ?>" target="_blank" href="http://feeds.feedburner.com/rtcamp/"></a>
                                 </div>
                             </div>
@@ -74,13 +75,13 @@ class rtWidgetsOptions {
                                     <span><?php _e( 'Promote, Donate, Share', $rtwidgets->rtwidgets_text_domain ); ?>...</span>
                                 </h3>
                                 <div class="inside">
-                                    <p><?php printf( __( 'Buy coffee/beer for team behind <a href="%s" title="rtPanel">rtPanel</a>.', $rtwidgets->rtwidgets_text_domain ), 'http://rtcamp.com/rtpanel/' ); ?></p>
+                                    <p><?php printf( __( 'Buy coffee/beer for team behind <a href="%s" title="rtWidgets">rtWidgets</a>.', $rtwidgets->rtwidgets_text_domain ), 'https://rtcamp.com/rtwidgets/' ); ?></p>
                                     <div class="rt-paypal" style="text-align: center">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                                             <input type="hidden" name="cmd" value="_donations" />
                                             <input type="hidden" name="business" value="paypal@rtcamp.com" />
                                             <input type="hidden" name="lc" value="US" />
-                                            <input type="hidden" name="item_name" value="rtPanel" />
+                                            <input type="hidden" name="item_name" value="rtWidgets" />
                                             <input type="hidden" name="no_note" value="0" />
                                             <input type="hidden" name="currency_code" value="USD" />
                                             <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest" />
@@ -90,10 +91,10 @@ class rtWidgetsOptions {
                                     </div>
                                     <div class="rt-social-share">
                                         <div class="rt-twitter rtw-social-box">
-                                            <a href="http://twitter.com/share"  class="twitter-share-button" data-text="I &hearts; #rtPanel"  data-url="http://rtcamp.com/rtpanel/" data-count="vertical" data-via="rtPanel"><?php _e( 'Tweet', $rtwidgets->rtwidgets_text_domain ); ?></a>
+                                            <a href="http://twitter.com/share"  class="twitter-share-button" data-text="I &hearts; #rtWidgets"  data-url="https://rtcamp.com/rtwidgets/" data-count="vertical" data-via="rtWidgets"><?php _e( 'Tweet', $rtwidgets->rtwidgets_text_domain ); ?></a>
                                         </div>
                                         <div class="rt-facebook rtw-social-box">
-                                            <a style=" text-align:center;" name="fb_share" type="box_count" share_url="http://rtpanel.com/"></a>
+                                            <a style=" text-align: center;" name="fb_share" type="box_count" share_url="https://rtcamp.com/rtwidgets/"></a>
                                         </div>
                                         <div class="clear"></div>
                                     </div>
@@ -106,7 +107,7 @@ class rtWidgetsOptions {
                                     <span><?php _e( 'Free Support', $rtwidgets->rtwidgets_text_domain ); ?></span>
                                 </h3>
                                 <div class="inside">
-                                    <p><?php printf( __( 'If you are facing any problems while using rtPanel, or have good ideas for improvements, please discuss the same in our <a href="%s" target="_blank" title="Click here for rtPanel Free Support">Support forums</a>', $rtwidgets->rtwidgets_text_domain ), 'http://rtcamp.com/support/forum/rtpanel/' ); ?>.</p>
+                                    <p><?php printf( __( 'If you are facing any problems while using rtWidgets, or have good ideas for improvements, please discuss the same in our <a href="%s" target="_blank" title="Click here for rtWidgets Free Support">Support forums</a>', $rtwidgets->rtwidgets_text_domain ), 'https://rtcamp.com/support/forum/rtwidgets/' ); ?>.</p>
                                 </div>
                             </div>
 
@@ -118,7 +119,7 @@ class rtWidgetsOptions {
                                 <div class="inside"><?php
                                     require_once( ABSPATH . WPINC . '/feed.php' );          // Get RSS Feed(s)
                                     $maxitems = 0;
-                                    $rss = fetch_feed( 'http://rtcamp.com/blog/feed/' );    // Get a SimplePie feed object from the specified feed source.
+                                    $rss = fetch_feed( 'https://rtcamp.com/blog/feed/' );    // Get a SimplePie feed object from the specified feed source.
                                     if ( !is_wp_error( $rss ) ) {                           // Checks that the object is created correctly
                                         $maxitems = $rss->get_item_quantity( 5 );           // Figure out how many total items there are, but limit it to 5.
                                         $rss_items = $rss->get_items( 0, $maxitems );       // Build an array of all the items, starting with element 0 (first element).
@@ -138,7 +139,7 @@ class rtWidgetsOptions {
                             </div> <!-- End of #latest_news -->
                         </div> <!-- End of .postbox-container -->
                     </div> <!-- End of #post-body -->
-                </form>
+                
             </div> <!-- End of #poststuff -->
         </div> <!-- End of wrap rtwidgets-admin -->
         <?php

@@ -17,9 +17,10 @@
 
 /* Getting Social is Good widget */
 #social .inside a { background-color: #666;color: #FFF;display: inline-block;height: 30px;font-size: 1.25rem;line-height: 30px;margin: 10px 20px 0 0;overflow: hidden;padding: 0;text-align: center;text-decoration: none;width: 30px;-webkit-border-radius: 1000px;-moz-border-radius: 1000px;border-radius: 1000px; }
-    #social .inside .rtw-rss:hover { background-color: #FAA33D; }
     #social .inside .rtw-facebook:hover { background-color: #537BBD; }
     #social .inside .rtw-twitter:hover { background-color: #40BFF5; }
+    #social .inside .rtw-gplus:hover { background-color: #DD4B39 }
+    #social .inside .rtw-rss:hover { background-color: #FAA33D; }
 
 #latest_news .inside ul { margin: 0 0 0 12px }
     #latest_news .inside ul li { list-style: square; padding: 0 0 7px; }
