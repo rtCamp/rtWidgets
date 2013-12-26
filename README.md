@@ -7,11 +7,12 @@
 * **Donate Link:** https://rtcamp.com/donate/
 
 This plugin is a bunch of custom widgets, it install custom widgts in one activation. Provided option page for activate and deactivate widgets.
+
 This plugin contain following custom widgets,
 1. rtw: Categories
-1. rtw: Comments with Gravatar
-1. rtw: Multiple Menus
-1. rtw: Subscribe Widget
+2. rtw: Comments with Gravatar
+3. rtw: Multiple Menus
+4. rtw: Subscribe Widget
 
 ## Installation ##
 
