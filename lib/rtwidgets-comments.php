@@ -29,7 +29,7 @@ class rtw_comments_widget extends WP_Widget {
         global $rtwidgets;
         extract( $args, EXTR_SKIP );
         $instance['title']          = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Recent Comments', $rtwidgets->rtwidgets_text_domain ) : $instance['title'], $instance, $this->id_base );
-        $instance['show_grav']      = isset( $instance['show_grav'] ) ? TRUE : FALSE;
+        $instance['show_grav']      = empty( $instance['show_grav'] ) ? 0 : 1;
         $instance['count']          = empty( $instance['count'] ) ? 0 : $instance['count'];
         $instance['rtw_read_more']  = empty( $instance['rtw_read_more'] ) ? __( 'Read More &rarr;', $rtwidgets->rtwidgets_text_domain ) : $instance['rtw_read_more'];
         
@@ -45,12 +45,12 @@ class rtw_comments_widget extends WP_Widget {
 
                 for ( $comments = 0; $comments < $instance['count']; $comments++ ) {
                     echo '<li role="listitem" class="clearfix">';
-                        if ( $instance['show_grav'] ) {
+                        if ( !empty( $instance['show_grav'] ) ) {
                             echo '<figure class="author-vcard" title="' . $total_comments[$comments]->comment_author . '">';
                                 echo get_avatar( $total_comments[$comments]->comment_author_email, 48, '', $total_comments[$comments]->comment_author );
                             echo '</figure>';
                         }
-                        echo '<p class="rtw-comment-date ' . ( ( $instance['show_grav'] ) ? '' : 'rtw-margin-0' ) . '">';
+                        echo '<p class="rtw-comment-date ' . ( !empty( $instance['show_grav'] ) ? '' : 'rtw-margin-0' ) . '">';
                             echo '<a title="' . mysql2date( 'F j, Y - g:ia', $total_comments[$comments]->comment_date_gmt ) . '" href="' . get_permalink( $total_comments[$comments]->comment_post_ID ) . '#comment-' . $total_comments[$comments]->comment_ID . '">';
                             echo mysql2date( 'F j, Y - g:ia', $total_comments[$comments]->comment_date_gmt );
                             echo '</a>';
@@ -87,7 +87,6 @@ class rtw_comments_widget extends WP_Widget {
         $instance['show_grav'] = !empty( $new_instance['show_grav'] ) ? 1 : 0;
         $instance['count'] = strip_tags ( $new_instance['count'] ) > $comment_total ? $comment_total : strip_tags ( $new_instance['count'] );
         $instance['rtw_read_more'] = strip_tags ( $new_instance['rtw_read_more'] );
-        $instance['alternative'] = !empty( $new_instance['alternative'] ) ? 1 : 0;
         return $instance;
     }
 

@@ -262,7 +262,7 @@ class rtw_subscribe_widget extends WP_Widget {
         </ul>
         <input class="rtw_social_sort_order" id="<?php echo $this->get_field_id( 'rtw_social_sort_order' ); ?>" name="<?php echo $this->get_field_name( 'rtw_social_sort_order' ); ?>" role="hidden" type="hidden" value="<?php echo $rtw_social_sort_order; ?>" />
         <p>
-            <input class="link_target" id="<?php echo $this->get_field_id( 'rtw_link_target' ); ?>" name="<?php echo $this->get_field_name( 'rtw_link_target' ); ?>" role="checkbox" role="checkbox" role="checkbox" role="checkbox" type="checkbox" <?php checked( $rtw_link_target ); ?> />
+            <input class="link_target" id="<?php echo $this->get_field_id( 'rtw_link_target' ); ?>" name="<?php echo $this->get_field_name( 'rtw_link_target' ); ?>" role="checkbox" type="checkbox" <?php checked( $rtw_link_target ); ?> />
             <label for="<?php echo $this->get_field_id( 'rtw_link_target' ); ?>"><?php _e( 'Open Social Links in New Tab/Window', $rtwidgets->rtwidgets_text_domain ); ?></label>
         </p>
         <script type="text/javascript">

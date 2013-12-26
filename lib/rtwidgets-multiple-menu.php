@@ -77,7 +77,7 @@
         } ?>
 
         <p>
-            <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:', $rtwidgets->rtwidgets_text_domain ) ?></label>
+            <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'First Menu Title:', $rtwidgets->rtwidgets_text_domain ) ?></label>
             <input type="text" class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $title; ?>" />
         </p>
         <p>
@@ -89,7 +89,7 @@
             </select>
         </p>
         <p>
-            <label for="<?php echo $this->get_field_id( 'secondary_title' ); ?>"><?php _e( 'Menu Title:', $rtwidgets->rtwidgets_text_domain ); ?></label> 
+            <label for="<?php echo $this->get_field_id( 'secondary_title' ); ?>"><?php _e( 'Second Menu Title:', $rtwidgets->rtwidgets_text_domain ); ?></label> 
             <input class="widefat" id="<?php echo $this->get_field_id( 'secondary_title' ); ?>" name="<?php echo $this->get_field_name( 'secondary_title' ); ?>" type="text" value="<?php echo esc_attr( $secondary_title ); ?>" />
         </p>
         <p>
