@@ -41,9 +41,9 @@ class rtWidgetsOptions {
         <div class="wrap rtwidgets-admin">
             <h2><?php _e( 'rtWidgets Options', $rtwidgets->rtwidgets_text_domain ); ?></h2>
             <div id="poststuff">
-                    <?php settings_fields( 'rtw_option_group' ); // This prints out all hidden setting fields ?>
                     <div id="post-body" class="metabox-holder columns-<?php echo 1 == get_current_screen()->get_columns() ? '1' : '2'; ?>">
                         <form method="post" action="options.php">
+                            <?php settings_fields( 'rtw_option_group' ); // This prints out all hidden setting fields ?>
                             <div id="post-body-content" class="postbox">
                                 <div title="<?php _e( 'Click to toggle', $rtwidgets->rtwidgets_text_domain ); ?>" class="handlediv"><br></div>
                                 <h3 class="hndle">
