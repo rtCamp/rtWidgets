@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rtWidgets 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-26 14:11+0530\n"
-"PO-Revision-Date: 2013-12-26 14:12+0530\n"
+"POT-Creation-Date: 2013-12-26 15:48+0530\n"
+"PO-Revision-Date: 2013-12-26 15:48+0530\n"
 "Last-Translator: rtCamp <support@rtcamp.com>\n"
 "Language-Team: rtCampers <support@rtcamp.com>\n"
 "Language: en\n"
@@ -16,11 +16,11 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../rtwidgets-main.php:137 ../admin/rtwidgets-options.php:50
+#: ../rtwidgets-main.php:138 ../admin/rtwidgets-options.php:50
 msgid "rtWidgets Settings"
 msgstr ""
 
-#: ../rtwidgets-main.php:137
+#: ../rtwidgets-main.php:138
 msgid "Settings"
 msgstr ""
 
@@ -168,7 +168,7 @@ msgstr ""
 msgid "Twitter Link"
 msgstr ""
 
-#: ../lib/rtwidgets-subscribe.php:42
+#: ../lib/rtwidgets-subscribe.php:42 ../admin/rtwidgets-options.php:67
 msgid "Add to Circle"
 msgstr ""
 
@@ -287,8 +287,8 @@ msgid "rtWidgets Options"
 msgstr ""
 
 #: ../admin/rtwidgets-options.php:48 ../admin/rtwidgets-options.php:60
-#: ../admin/rtwidgets-options.php:72 ../admin/rtwidgets-options.php:104
-#: ../admin/rtwidgets-options.php:114
+#: ../admin/rtwidgets-options.php:73 ../admin/rtwidgets-options.php:105
+#: ../admin/rtwidgets-options.php:115
 msgid "Click to toggle"
 msgstr ""
 
@@ -304,56 +304,57 @@ msgstr ""
 msgid "Follow us on Twitter"
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:67
+#: ../admin/rtwidgets-options.php:68
 msgid "Subscribe to our feeds"
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:74
+#: ../admin/rtwidgets-options.php:75
 msgid "Promote, Donate, Share"
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:77
+#: ../admin/rtwidgets-options.php:78
 #, php-format
 msgid ""
-"Buy coffee/beer for team behind <a href=\"%s\" title=\"rtPanel\">rtPanel</a>."
+"Buy coffee/beer for team behind <a href=\"%s\" title=\"rtWidgets"
+"\">rtWidgets</a>."
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:87
+#: ../admin/rtwidgets-options.php:88
 msgid "PayPal - The safer, easier way to pay online!"
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:93
+#: ../admin/rtwidgets-options.php:94
 msgid "Tweet"
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:106
+#: ../admin/rtwidgets-options.php:107
 msgid "Free Support"
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:109
+#: ../admin/rtwidgets-options.php:110
 #, php-format
 msgid ""
-"If you are facing any problems while using rtPanel, or have good ideas for "
+"If you are facing any problems while using rtWidgets, or have good ideas for "
 "improvements, please discuss the same in our <a href=\"%s\" target=\"_blank"
-"\" title=\"Click here for rtPanel Free Support\">Support forums</a>"
+"\" title=\"Click here for rtWidgets Free Support\">Support forums</a>"
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:116
+#: ../admin/rtwidgets-options.php:117
 msgid "Latest News"
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:128
+#: ../admin/rtwidgets-options.php:129
 msgid "No items"
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:132
+#: ../admin/rtwidgets-options.php:133
 msgid "Posted "
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:202
+#: ../admin/rtwidgets-options.php:203
 msgid "Check/Uncheck below checkboxs to enable OR disable widgets."
 msgstr ""
 
-#: ../admin/rtwidgets-options.php:219
+#: ../admin/rtwidgets-options.php:220
 msgid "Enable Widget"
 msgstr ""
