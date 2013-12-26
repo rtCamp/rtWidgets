@@ -1,14 +1,15 @@
 <?php
-/**
- * Plugin Name: rtWidgets
- * Plugin URI: http://rtcamp.com/
- * Description: This plugin is a bunch of custom widgets, it install custom widgts in one activation. Provided option page for activate and deactivate widgets.
- * Version: 1.0
- * Author: rtCamp
- * Text Domain: rtwidgets
- * Author URI: http://rtcamp.com/about/rtcampers/
- * Contributors: Manish Songirakr (manishsongirkar36), Hrishikesh Vaipurkar (hrishiv90)
- * Requires at least: 3.8
+/*
+  Plugin Name: rtWidgets
+  Plugin URI: https://rtcamp.com/rtwidgets/
+  Description: This plugin is a bunch of custom widgets, it install custom widgts in one activation. Provided option page for activate and deactivate widgets.
+  Version: 1.0
+  Author: rtCamp
+  Author URI: https://rtcamp.com/
+  Text Domain: rtwidgets
+  Stable tag: 1.0
+  Requires at least: 3.8
+  Tested up to: 3.8
  */
 
 /**
