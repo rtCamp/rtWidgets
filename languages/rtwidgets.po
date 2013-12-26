@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rtWidgets 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-26 16:15+0530\n"
-"PO-Revision-Date: 2013-12-26 16:15+0530\n"
+"POT-Creation-Date: 2013-12-26 19:08+0530\n"
+"PO-Revision-Date: 2013-12-26 19:08+0530\n"
 "Last-Translator: rtCamp <support@rtcamp.com>\n"
 "Language-Team: rtCampers <support@rtcamp.com>\n"
 "Language: en\n"
@@ -37,7 +37,7 @@ msgid "Categories"
 msgstr ""
 
 #: ../lib/rtwidgets-category.php:118 ../lib/rtwidgets-subscribe.php:204
-#: ../lib/rtwidgets-comments.php:111
+#: ../lib/rtwidgets-comments.php:110
 msgid "Title"
 msgstr ""
 
@@ -131,7 +131,7 @@ msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr ""
 
 #: ../lib/rtwidgets-multiple-menu.php:80
-msgid "Title:"
+msgid "First Menu Title:"
 msgstr ""
 
 #: ../lib/rtwidgets-multiple-menu.php:84 ../lib/rtwidgets-multiple-menu.php:96
@@ -139,7 +139,7 @@ msgid "Select Menu:"
 msgstr ""
 
 #: ../lib/rtwidgets-multiple-menu.php:92
-msgid "Menu Title:"
+msgid "Second Menu Title:"
 msgstr ""
 
 #: ../lib/rtwidgets-subscribe.php:16
@@ -257,24 +257,24 @@ msgstr ""
 msgid "Recent Comments"
 msgstr ""
 
-#: ../lib/rtwidgets-comments.php:34 ../lib/rtwidgets-comments.php:107
+#: ../lib/rtwidgets-comments.php:34 ../lib/rtwidgets-comments.php:106
 msgid "Read More &rarr;"
 msgstr ""
 
-#: ../lib/rtwidgets-comments.php:115
+#: ../lib/rtwidgets-comments.php:114
 msgid "Show Gravatar"
 msgstr ""
 
-#: ../lib/rtwidgets-comments.php:119
+#: ../lib/rtwidgets-comments.php:118
 msgid "Show Comments"
 msgstr ""
 
-#: ../lib/rtwidgets-comments.php:121
+#: ../lib/rtwidgets-comments.php:120
 #, php-format
 msgid "You have total '%d' comments to display"
 msgstr ""
 
-#: ../lib/rtwidgets-comments.php:124
+#: ../lib/rtwidgets-comments.php:123
 msgid "Read More Text"
 msgstr ""
 
