@@ -4,6 +4,12 @@
  * @since rtWidget 1.0
  */
 
+// Define Default Colors
+$white: #FFFFFF;
+$grey: #DDDDDD;
+
+// Comman CSS
 .clearfix { @include clearfix; }
 .rtw-radius { @include border-radius(1000px); }
 .rtw-margin-bottom-10 { margin-bottom: 10px; }
+.rtw-margin-top-10 { margin-top: 10px; }

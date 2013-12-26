@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rtWidgets 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-24 17:28+0530\n"
-"PO-Revision-Date: 2013-12-24 17:28+0530\n"
+"POT-Creation-Date: 2013-12-26 14:11+0530\n"
+"PO-Revision-Date: 2013-12-26 14:12+0530\n"
 "Last-Translator: rtCamp <support@rtcamp.com>\n"
 "Language-Team: rtCampers <support@rtcamp.com>\n"
 "Language: en\n"
@@ -36,8 +36,8 @@ msgstr ""
 msgid "Categories"
 msgstr ""
 
-#: ../lib/rtwidgets-category.php:118 ../lib/rtwidgets-login.php:179
-#: ../lib/rtwidgets-subscribe.php:204 ../lib/rtwidgets-comments.php:111
+#: ../lib/rtwidgets-category.php:118 ../lib/rtwidgets-subscribe.php:204
+#: ../lib/rtwidgets-comments.php:111
 msgid "Title"
 msgstr ""
 
@@ -142,134 +142,6 @@ msgstr ""
 msgid "Menu Title:"
 msgstr ""
 
-#: ../lib/rtwidgets-login.php:14
-msgid "Provide fontend login, registration and forget password option"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:16
-msgid "rtw: Frontend Login"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:43 ../lib/rtwidgets-login.php:77
-msgid "Login"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:44
-msgid "Register"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:45
-msgid "Forgot?"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:52 ../lib/rtwidgets-login.php:55
-msgid "Success!"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:53
-msgid "Check your email for the password and then return to log in."
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:56
-msgid "Check your email to reset your password."
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:58
-msgid "Have an account?"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:59
-msgid "Log in or sign up! It&rsquo;s fast &amp; <em>free!</em>"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:63 ../lib/rtwidgets-login.php:88
-msgid "Username"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:65 ../lib/rtwidgets-login.php:89
-msgid "Enter Username"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:68
-msgid "Password"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:69
-msgid "Enter Password"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:74
-msgid "Remember me"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:84
-msgid "Register for this site!"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:85
-msgid "Sign up now for the good stuff."
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:92
-msgid "Your Email"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:94 ../lib/rtwidgets-subscribe.php:112
-msgid "Enter Email Address"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:98
-msgid "Sign up!"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:102
-msgid "Check your email for the password!"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:110
-msgid "Lose something?"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:111
-msgid "Enter your username or email to reset your password."
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:114
-msgid "Username or Email"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:115
-msgid "Enter Username or Email ID"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:119
-msgid "Reset my password"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:122
-msgid "A message will be sent to your email address."
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:132
-msgid "Welcome,"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:139
-msgid "You&rsquo;re logged in as"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:141
-msgid "Log out"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:143
-msgid "Admin"
-msgstr ""
-
-#: ../lib/rtwidgets-login.php:145
-msgid "Profile"
-msgstr ""
-
 #: ../lib/rtwidgets-subscribe.php:16
 msgid ""
 "Widget for email subscription form and Social Icons such as Facebook, "
@@ -315,6 +187,10 @@ msgstr ""
 #: ../lib/rtwidgets-subscribe.php:83 ../lib/rtwidgets-subscribe.php:163
 #: ../lib/rtwidgets-subscribe.php:195
 msgid "Subscribe"
+msgstr ""
+
+#: ../lib/rtwidgets-subscribe.php:112
+msgid "Enter Email Address"
 msgstr ""
 
 #: ../lib/rtwidgets-subscribe.php:147

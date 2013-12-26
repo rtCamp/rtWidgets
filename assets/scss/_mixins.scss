@@ -43,12 +43,12 @@ $rem-base: 16px;
 }
 
 // Border 1px
-@mixin rtw-border($width: 1px, $style: solid, $color: #DDDDDD) {
+@mixin rtw-border($width: 1px, $style: solid, $color: $grey) {
     border: $width $style $color;
 }
 
 // Border 1px
-@mixin rtw-border-bottom($width: 1px, $style: solid, $color: #DDDDDD) {
+@mixin rtw-border-bottom($width: 1px, $style: solid, $color: $grey) {
     border-bottom: $width $style $color;
 }
 

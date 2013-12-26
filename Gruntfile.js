@@ -2,24 +2,22 @@
 module.exports = function(grunt) {
 
     // load all grunt tasks matching the `grunt-*` pattern
+    // Ref. https://npmjs.org/package/load-grunt-tasks
     require('load-grunt-tasks')(grunt);
 
     grunt.initConfig({
-
-        // watch for changes and trigger compass, jshint, uglify and livereload
+        
+        // Watch for hanges and trigger compass, jshint, uglify and livereload
+        // Ref. https://npmjs.org/package/grunt-contrib-watch
         watch: {
             compass: {
-                files: ['assets/**/*.{scss,sass}'],
+                files: ['assets/scss/**/*.{scss,sass}'],
                 tasks: ['compass']
-            },
-            
-            livereload: {
-                options: { livereload: true },
-                files: ['style.css', '*.html', '*.php']
             }
         },
-
-        // compass and scss
+        
+        // SCSS and Compass
+        // Ref. https://npmjs.org/package/grunt-contrib-compass
         compass: {
             dist: {
                 options: {
@@ -27,9 +25,23 @@ module.exports = function(grunt) {
                     force: true
                 }
             }
+        },
+        
+        // Fontello Icons
+        // Ref. https://npmjs.org/package/grunt-fontello
+        fontello: {
+            dist: {
+                options: {
+                    config: 'assets/icon-font/config.json',
+                    fonts: 'assets/icon-font/font',
+                    styles: 'assets/icon-font/css',
+                    scss: true,
+                    force: true
+                }
+            }
         }
     });
 
-    // register task
-    grunt.registerTask('default', ['watch']);
+    // Register Task
+    grunt.registerTask('default', ['fontello', 'watch']);
 };
