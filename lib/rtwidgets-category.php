@@ -120,7 +120,7 @@ class rtw_category_widget extends WP_Widget {
         </p>
         <p style="overflow: hidden;">
             <label for="<?php echo $this->get_field_id( 'sortby' ); ?>" style="display: block;float: left;padding: 3px 0 0;"><?php _e( 'Order by', $rtwidgets->rtwidgets_text_domain ); ?>: </label>
-            <select role="listbox" id="<?php echo $this->get_field_id( 'sortby' ); ?>" name="<?php echo $this->get_field_name( 'sortby' ); ?>" style="float: right; width: 120px;">
+            <select role="listbox" id="<?php echo $this->get_field_id( 'sortby' ); ?>" name="<?php echo $this->get_field_name( 'sortby' ); ?>" style="float: right; width: 150px;">
                 <option value="name" <?php selected( 'name', $sortby ); ?>><?php _e( 'Category Name', $rtwidgets->rtwidgets_text_domain ); ?></option>
                 <option value="ID" <?php selected( 'ID', $sortby ); ?>><?php _e( 'Category ID', $rtwidgets->rtwidgets_text_domain ); ?></option>
                 <option value="count" <?php selected( 'count', $sortby ); ?>><?php _e( 'Category Count', $rtwidgets->rtwidgets_text_domain ); ?></option>
@@ -129,26 +129,26 @@ class rtw_category_widget extends WP_Widget {
         </p>
         <p style="overflow: hidden;">
             <label for="<?php echo $this->get_field_id( 'order' ); ?>" style="display: block;float: left;padding: 3px 0 0;"><?php _e( 'Sort by', $rtwidgets->rtwidgets_text_domain ); ?>: </label>
-            <select role="listbox" id="<?php echo $this->get_field_id( 'order' ); ?>" name="<?php echo $this->get_field_name( 'order' ); ?>" style="float: right; width: 120px;">
+            <select role="listbox" id="<?php echo $this->get_field_id( 'order' ); ?>" name="<?php echo $this->get_field_name( 'order' ); ?>" style="float: right; width: 150px;">
                 <option value="ASC" <?php selected( 'ASC', $order ); ?>><?php _e( 'Ascending', $rtwidgets->rtwidgets_text_domain ); ?></option>
                 <option value="DESC" <?php selected( 'DESC', $order ); ?>><?php _e( 'Descending', $rtwidgets->rtwidgets_text_domain ); ?></option>
             </select>
         </p>
         <p style="overflow: hidden;">
             <label for="<?php echo $this->get_field_id( 'show_cat' ); ?>" style="display: block;float: left;padding: 3px 0 0;"><?php _e( 'Show Category', $rtwidgets->rtwidgets_text_domain ); ?>:</label>
-            <input class="widefat show-cat" id="<?php echo $this->get_field_id( 'show_cat' ); ?>" name="<?php echo $this->get_field_name( 'show_cat' ); ?>" type="text" role="textbox" value="<?php echo $show_cat; ?>" style="float: right; clear: right; width: 120px;" /><div class="clear"></div>
+            <input class="widefat show-cat" id="<?php echo $this->get_field_id( 'show_cat' ); ?>" name="<?php echo $this->get_field_name( 'show_cat' ); ?>" type="text" role="textbox" value="<?php echo $show_cat; ?>" style="float: right; clear: right; width: 150px;" /><div class="clear"></div>
             <span class="description"><?php _e( 'Total Categories', $rtwidgets->rtwidgets_text_domain ); ?>: <?php echo count( get_categories() ); ?></span>
         </p>
         <p style="overflow: hidden;">
             <label for="<?php echo $this->get_field_id( 'showstyle' ); ?>" style="display: block;float: left;padding: 3px 0 0;"><?php _e( 'Style', $rtwidgets->rtwidgets_text_domain ); ?>: </label>
-            <select role="listbox" id="<?php echo $this->get_field_id( 'showstyle' ); ?>" name="<?php echo $this->get_field_name( 'showstyle' ); ?>" style="float: right; width: 120px;">
+            <select role="listbox" id="<?php echo $this->get_field_id( 'showstyle' ); ?>" name="<?php echo $this->get_field_name( 'showstyle' ); ?>" style="float: right; width: 150px;">
                 <option value="list" <?php selected( 'list', $showstyle ); ?>><?php _e( 'List', $rtwidgets->rtwidgets_text_domain ); ?></option>
                 <option value="dropdown" <?php selected( 'dropdown', $showstyle ); ?>><?php _e( 'Dropdown', $rtwidgets->rtwidgets_text_domain ); ?></option>
             </select>
         </p>
         <p style="overflow: hidden;">
             <label for="<?php echo $this->get_field_id( 'exclude' ); ?>" style="display: block; float: left; padding: 3px 0 0;"><?php _e( 'Exclude', $rtwidgets->rtwidgets_text_domain ); ?>:</label>
-            <input class="widefat exclude" id="<?php echo $this->get_field_id( 'exclude' ); ?>" name="<?php echo $this->get_field_name( 'exclude' ); ?>" type="text" role="textbox" value="<?php echo $exclude; ?>" style="float: right; clear: right; margin: 0 0 0 3px; width: 120px;" /><div class="clear"></div>
+            <input class="widefat exclude" id="<?php echo $this->get_field_id( 'exclude' ); ?>" name="<?php echo $this->get_field_name( 'exclude' ); ?>" type="text" role="textbox" value="<?php echo $exclude; ?>" style="float: right; clear: right; margin: 0 0 0 3px; width: 150px;" /><div class="clear"></div>
             <span class="description"><?php _e( 'Separate Category ID with ","', $rtwidgets->rtwidgets_text_domain ); ?><br /><?php _e( 'Ex: 1,5,15', $rtwidgets->rtwidgets_text_domain ); ?></span>
         </p>
         <p style="overflow: hidden;">
