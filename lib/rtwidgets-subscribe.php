@@ -223,14 +223,14 @@ class rtw_subscribe_widget extends WP_Widget {
                 <label for="<?php echo $this->get_field_id( 'rtw_show_mailchimp' ); ?>"><?php _e( 'MailChimp: (Form Action URL)', $rtwidgets->rtwidgets_text_domain ); ?> </label>
             </p>
             <p>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'sub_link' ); ?>" name="<?php echo $this->get_field_name( 'sub_link' ); ?>" type="text" role="textbox" value="<?php echo esc_attr( $sub_link ); ?>" placeholder="<?php _e( 'Enter Subscription URL', $rtwidgets->rtwidgets_text_domain ); ?>" />
+                <input class="widefat" id="<?php echo $this->get_field_id( 'sub_link' ); ?>" name="<?php echo $this->get_field_name( 'sub_link' ); ?>" type="text" role="textbox" value="<?php echo esc_attr( $sub_link ); ?>" placeholder="<?php _e( 'Enter Feedburner Handler OR MailChimp Action URL', $rtwidgets->rtwidgets_text_domain ); ?>" />
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'label' ); ?>"><?php _e( 'Feedburner Form Label', $rtwidgets->rtwidgets_text_domain ); ?>: </label>
+                <label for="<?php echo $this->get_field_id( 'label' ); ?>"><?php _e( 'Subscription Form Label', $rtwidgets->rtwidgets_text_domain ); ?>: </label>
                 <textarea class="widefat" rows="2" cols="20" id="<?php echo $this->get_field_id( 'label' ); ?>" name="<?php echo $this->get_field_name( 'label' ); ?>"><?php echo $label; ?></textarea>
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'button' ); ?>"><?php _e( 'Feedburner Form Button', $rtwidgets->rtwidgets_text_domain ); ?>: </label>
+                <label for="<?php echo $this->get_field_id( 'button' ); ?>"><?php _e( 'Subscription Form Button', $rtwidgets->rtwidgets_text_domain ); ?>: </label>
                 <input class="widefat" id="<?php echo $this->get_field_id( 'button' ); ?>" name="<?php echo $this->get_field_name( 'button' ); ?>" type="text" role="textbox" value="<?php echo esc_attr( $button ); ?>" />
             </p>
         </div>
