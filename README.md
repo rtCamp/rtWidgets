@@ -6,9 +6,9 @@
 
 * **Donate Link:** https://rtcamp.com/donate/
 
-This plugin is a bunch of custom widgets, it install custom widgts in one activation. Provided option page for activate and deactivate widgets.
+This plugin is assortment of custom widgets. On activating this, we can install multiple custom widgets at once. For our convenience, it also provides us an option to activate or deactivate the widgets.
 
-This plugin contain following custom widgets,
+Below is the list of custom widgets, which this plugin contains:
 
 1. rtw: Categories
 2. rtw: Comments with Gravatar
@@ -20,7 +20,7 @@ This plugin contain following custom widgets,
 Automatic Installation
 
 1. Log in to your WordPress admin panel, navigate to the Plugins menu and click Add New.
-1. In the search field type "rtWidgets" and click Search Plugins. From the search results, pick rtWidgets and click Install Now. Wordpress will ask you to confirm to complete the installation.
+1. In the search field type "rtWidgets" and click Search Plugins. From the search results, pick rtWidgets and click Install Now. WordPress will ask you to confirm to complete the installation.
 
 Manual Installation
 
