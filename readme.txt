@@ -7,7 +7,6 @@ Tested up to: WordPress 3.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Stable tag: 1.2
-Donate Link: http://rtcamp.com/donate/
 
 This installs multiple custom widgets in one activation. All the custom widgets are translation ready.
 
