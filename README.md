@@ -49,4 +49,4 @@ Its just that we are hyperactive on our own forum!
 * First release
 
 #### 1.2 ####
-* * Update plugin documentations
+* Update plugin documentations
