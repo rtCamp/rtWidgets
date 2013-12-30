@@ -4,15 +4,17 @@
 
 * **License:** [GPL v2 or later] ( http://www.gnu.org/licenses/gpl-2.0.html)
 
+This installs multiple custom widgets in one activation. All the custom widgets are translation ready.
+
 ## Description ##
-This plugin is assortment of custom widgets. On activating this, we can install multiple custom widgets at once. For our convenience, it also provides us an option to activate or deactivate the widgets.
+This plugin is assortment of custom widgets. On activating this, we can install multiple custom widgets at once. For convenience, it also provides an option to activate or deactivate the widgets. All the widgets installed by this plugin are translation ready.
 
-Below is the list of custom widgets, which this plugin contains:
+This plugin contains the list of below mentioned custom widgets:
 
-1. rtw: Categories
-1. rtw: Comments with Gravatar
-1. rtw: Multiple Menus
-1. rtw: Subscribe Widget
+1. **rtw: Categories** - It provides multiple category filter options, like Order by, Sort by and Number of categories to be shown.
+1. **rtw: Comments with Gravatar** - This show the list of recent comments with commenter gravatar.
+1. **rtw: Multiple Menus** - It provides 2 custom menu options, for each of which we can select the respective menu.
+1. **rtw: Subscribe Widget** - It provides these email subscription options, like Feedburner and MailChimp. Also, provide social connect options where you can change order of social icons. Using WordPress filter you can add multiple social connect icons like rss, facebook, github-circled, youtube, flickr-circled, vimeo, twitter, gplus, pinterest, linkedin, stumbleupon, instagram, paypal, picasa, soundcloud, wordpress, blogger, delicious, deviantart, digg, foursquare, reddit, stackoverflow, tumblr
 
 ## Installation ##
 Automatic Installation
@@ -40,8 +42,11 @@ Its just that we are hyperactive on our own forum!
 
 ## Changelog ##
 
+#### 1.2 ####
+* Update plugin documentations
+
 #### 1.0 ####
 * First release
 
-#### 1.0 ####
-* First Release with rtw: Subscribe Widget, rtw: Multiple Menus Widget, rtw: Comments with Gravatar Widget and rtw: Categories Widget
+#### 1.2 ####
+* * Update plugin documentations

@@ -1,12 +1,12 @@
 <?php
-/*
-  Plugin Name: rtWidgets
-  Plugin URI: https://rtcamp.com/rtwidgets/
-  Description: This plugin is a bunch of custom widgets, it install custom widgts in one activation. Provided option page for activate and deactivate widgets.
-  Version: 1.1
-  Author: rtCamp
-  Author URI: https://rtcamp.com/
-  Text Domain: rtwidgets
+/**
+ * Plugin Name: rtWidgets
+ * Plugin URI: https://rtcamp.com/rtwidgets/
+ * Description: This installs multiple custom widgets in one activation. All the custom widgets are translation ready.
+ * Version: 1.2
+ * Author: rtCamp
+ * Author URI: https://rtcamp.com/
+ * Text Domain: rtwidgets
  */
 
 /**
@@ -75,7 +75,7 @@ class rtWidgets {
     /**
      * @var string
      */
-    public $version = '1.0';
+    public $version = '1.2';
     
     /**
      * Define Text Domain
