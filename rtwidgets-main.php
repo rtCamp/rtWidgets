@@ -7,9 +7,6 @@
   Author: rtCamp
   Author URI: https://rtcamp.com/
   Text Domain: rtwidgets
-  Stable tag: 1.0
-  Requires at least: 3.8
-  Tested up to: 3.8
  */
 
 /**
