@@ -4,6 +4,8 @@
 
 * **License:** [GPL v2 or later] ( http://www.gnu.org/licenses/gpl-2.0.html)
 
+* **Donate Link:** http://rtcamp.com/donate/
+
 This installs multiple custom widgets in one activation. All the custom widgets are translation ready.
 
 ## Description ##
