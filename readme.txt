@@ -2,11 +2,11 @@
 Contributors: rtcamp, manishsongirkar36, hrishiv90
 Tags: widget, sidebar, custom widget, social connect, feed, category, menu, comments, subscribe
 Donate link: https://rtcamp.com/donate/
-Requires at least: 1.0
+Requires at least: WordPress 3.8
 Tested up to: WordPress 3.8
-Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 1.0
 
 == Description ==
 This plugin is assortment of custom widgets. On activating this, we can install multiple custom widgets at once. For our convenience, it also provides us an option to activate or deactivate the widgets.
