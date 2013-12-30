@@ -3,7 +3,7 @@ Contributors: rtcamp, manishsongirkar36, hrishiv90
 Tags: widget, sidebar, custom widget, social connect, feed, category, menu, comments, subscribe
 Donate link: https://rtcamp.com/donate/
 Requires at least: 1.0
-Tested up to: 3.8
+Tested up to: WordPress 3.8
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,12 +22,12 @@ Below is the list of custom widgets, which this plugin contains:
 Automatic Installation
 
 1. Log in to your WordPress admin panel, navigate to the Plugins menu and click Add New.
-1. In the search field type \"rtWidgets\" and click Search Plugins. From the search results, pick rtWidgets and click Install Now. WordPress will ask you to confirm to complete the installation.
+1. In the search field type "rtWidgets" and click Search Plugins. From the search results, pick rtWidgets and click Install Now. WordPress will ask you to confirm to complete the installation.
 
 Manual Installation
 
 1. Extract the zip file.
-1. Upload them to \'/wp-content/plugins/\' directory on your WordPress installation.
+1. Upload them to '/wp-content/plugins/' directory on your WordPress installation.
 1. Then activate the Plugin from Plugins page.
 
 == Frequently Asked Questions ==
