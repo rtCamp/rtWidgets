@@ -1,6 +1,7 @@
 
 .rtw-rss:before { content: '\e803'; } /* '' */
 .rtw-tumblr:before { content: '\e817'; } /* '' */
+.rtw-facebook:before { content: '\e800'; } /* '' */
 .rtw-github-circled:before { content: '\e802'; } /* '' */
 .rtw-youtube:before { content: '\e812'; } /* '' */
 .rtw-info:before { content: '\e809'; } /* '' */
@@ -11,7 +12,7 @@
 .rtw-pinterest:before { content: '\e806'; } /* '' */
 .rtw-linkedin:before { content: '\e805'; } /* '' */
 .rtw-stumbleupon:before { content: '\e80b'; } /* '' */
-.rtw-facebook:before { content: '\e800'; } /* '' */
+.rtw-level-down:before { content: '\e819'; } /* '' */
 .rtw-paypal:before { content: '\e80e'; } /* '' */
 .rtw-picasa:before { content: '\e80c'; } /* '' */
 .rtw-soundcloud:before { content: '\e80f'; } /* '' */
