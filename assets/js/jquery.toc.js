@@ -9,10 +9,11 @@
     $.fn.toc = function(options) {
         var self = this;
         var opts = $.extend({}, jQuery.fn.toc.defaults, options);
+
         var container = $(opts.container);
         var headings = $(opts.selectors, container);
         var headingOffsets = [];
-        var activeClassName = opts.prefix + '-active';
+        var activeClassName = 'rtw-toc-active';
 
         var scrollTo = function(e) {
             if (opts.smoothScrolling) {
@@ -24,8 +25,8 @@
                     location.hash = elScrollTo;
                 });
             }
-            $('li', self).removeClass(activeClassName);
-            $(e.target).parent().addClass(activeClassName);
+            $('a', self).removeClass(activeClassName);
+            $(e.target).addClass(activeClassName);
         };
 
         //highlight on scroll
@@ -39,8 +40,8 @@
                         highlighted;
                 for (var i = 0, c = headingOffsets.length; i < c; i++) {
                     if (headingOffsets[i] >= top) {
-                        $('li', self).removeClass(activeClassName);
-                        highlighted = $('li:eq(' + (i - 1) + ')', self).addClass(activeClassName);
+                        $('a', self).removeClass(activeClassName);
+                        highlighted = $('a:eq(' + (i - 1) + ')', self).addClass(activeClassName);
                         opts.onHighlight(highlighted);
                         break;
                     }
@@ -55,7 +56,12 @@
         return this.each(function() {
             //build TOC
             var el = $(this);
-            var ul = $('<ul/>');
+            var listParent = '';
+            if ( opts.listStyle === 'ol' || opts.listStyle === 'ul' ) {
+                listParent = $('<' + opts.listStyle + '/>');
+            } else {
+                listParent = $('<div/>');
+            }
             headings.each(function(i, heading) {
                 var $h = $(heading);
                 headingOffsets.push($h.offset().top - opts.highlightOffset);
@@ -75,26 +81,31 @@
                 var li = $('<li/>')
                         .addClass(opts.itemClass(i, heading, $h, opts.prefix))
                         .append(a);
-
-                ul.append(li);
+                if ( opts.listStyle === 'ol' || opts.listStyle === 'ul' ) {
+                    listParent.append(li);
+                } else {
+                    listParent.append(a);
+                }
             });
-            el.html(ul);
+            el.html(listParent);
         });
     };
 
     jQuery.fn.toc.defaults = {
-        container: 'body',
-        selectors: 'h1,h2,h3',
+        container: '#content',
+        selectors: 'h1,h2,h3,h4,h5',
         smoothScrolling: true,
         prefix: 'toc',
-        onHighlight: function() {
-        },
+        listStyle: 'ul', // ul, ol
+        onHighlight: function() {},
         highlightOnScroll: true,
         highlightOffset: 100,
         anchorName: function(i, heading, prefix) {
             return prefix + i;
         },
         headerText: function(i, heading, $heading) {
+//            var test = $heading.text().replace('/ /g', '-');
+//            console.log( test );
             return $heading.text();
         },
         itemClass: function(i, heading, $heading, prefix) {

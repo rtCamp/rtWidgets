@@ -28,7 +28,7 @@ class rtw_toc_widget extends WP_Widget {
     public function widget( $args, $instance ) {
         global $rtwidgets;
         extract( $args, EXTR_SKIP );
-        $instance['title'] = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Categories', $rtwidgets->rtwidgets_text_domain ) : $instance['title'], $instance, $this->id_base );
+        $instance['title'] = apply_filters( 'widget_title', empty( $instance['title'] ) ? '' : $instance['title'], $instance, $this->id_base );
 
 
         echo $args['before_widget'];
