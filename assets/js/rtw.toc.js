@@ -1,9 +1,7 @@
 /*!
- * toc - jQuery Table of Contents Plugin
- * v0.1.2
- * http://projects.jga.me/toc/
- * copyright Greg Allen 2013
- * MIT License
+ * jQuery Table of Contents Custom Plugin
+ * 
+ * @since rtWidget 1.3
  */
 (function($) {
     $.fn.toc = function(options) {
@@ -12,6 +10,7 @@
 
         var container = $(opts.container);
         var headings = $(opts.selectors, container);
+        var headingsText = $(opts.selectors, container).text(); // Fetch Text in Heading tags
         var headingOffsets = [];
         var activeClassName = 'rtw-toc-active';
 
@@ -48,6 +47,7 @@
                 }
             }, 50);
         };
+        
         if (opts.highlightOnScroll) {
             $(window).bind('scroll', highlightOnScroll);
             highlightOnScroll();
@@ -68,7 +68,7 @@
 
                 //add anchor
                 var anchor = $('<span/>').attr('id', opts.anchorName(i, heading, opts.prefix)).insertBefore($h);
-
+                
                 //build TOC item
                 var a = $('<a/>')
                         .text(opts.headerText(i, heading, $h))
@@ -104,7 +104,7 @@
             return prefix + i;
         },
         headerText: function(i, heading, $heading) {
-//            var test = $heading.text().replace('/ /g', '-');
+//            var test = $heading.text().replace(/[_\W]+/g, '-');
 //            console.log( test );
             return $heading.text();
         },

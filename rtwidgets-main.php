@@ -144,7 +144,7 @@ class rtWidgets {
      */
     public function rtw_enqueue_assets() {
         if ( !is_admin() ) {
-            wp_enqueue_script( 'rtw-toc-script', RTWIDGETS_ASSETS . 'js/jquery.toc.js', array( 'jquery', ), '1.0', TRUE );
+            wp_enqueue_script( 'rtw-toc-script', RTWIDGETS_ASSETS . 'js/rtw.toc.js', array( 'jquery', ), '1.0', TRUE );
             wp_enqueue_script( 'rtw-plugin-script', RTWIDGETS_ASSETS . 'js/rtwidgets-scripts.js', array( 'jquery', 'rtw-toc-script' ), '1.0', TRUE );
             wp_enqueue_style( 'rtw-icon-fonts', RTWIDGETS_ASSETS . 'icon-font/css/rtw-fontello.css', array(), '1.0' );
             wp_enqueue_style( 'rtw-plugin-css', RTWIDGETS_ASSETS . 'rtwidgets-style.css', array( 'rtw-icon-fonts' ), '1.0' );
