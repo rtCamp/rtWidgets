@@ -27,25 +27,35 @@ class rtw_subscribe_widget extends WP_Widget {
          * foursquare, reddit, stackoverflow, tumblr
          */
         $rtw_default_social_array = array(
-            array( 
-                'id'            => 'facebook',   
+            array(
+                'id'            => 'facebook',
                 'title'         => __( 'Like Us on Facebook', $rtwidgets->rtwidgets_text_domain ),      
                 'link_label'    => __( 'Facebook Link', $rtwidgets->rtwidgets_text_domain ) 
             ),
-            array( 
-                'id'            => 'twitter',    
+            array(
+                'id'            => 'twitter',
                 'title'         => __( 'Follow Us on Twitter', $rtwidgets->rtwidgets_text_domain ),     
                 'link_label'    => __( 'Twitter Link', $rtwidgets->rtwidgets_text_domain ) 
             ),
-            array( 
-                'id'            => 'gplus', 
+            array(
+                'id'            => 'gplus',
                 'title'         => __( 'Add to Circle', $rtwidgets->rtwidgets_text_domain ),            
                 'link_label'    => __( 'Google + Link', $rtwidgets->rtwidgets_text_domain ) 
             ),
-            array( 
-                'id'            => 'rss',        
+            array(
+                'id'            => 'rss',
                 'title'         => __( 'Subscribe via RSS', $rtwidgets->rtwidgets_text_domain ),
                 'link_label'    => __( 'RSS Feed Link', $rtwidgets->rtwidgets_text_domain ) 
+            ),
+            array(
+                'id'            => 'pinterest',
+                'title'         => __( 'Follow Us on Pinterest', $rtwidgets->rtwidgets_text_domain ),
+                'link_label'    => __( 'Pinterest Link', $rtwidgets->rtwidgets_text_domain ) 
+            ),
+            array(
+                'id'            => 'instagram',
+                'title'         => __( 'Follow Us on Instagram', $rtwidgets->rtwidgets_text_domain ),
+                'link_label'    => __( 'Instagram Link', $rtwidgets->rtwidgets_text_domain ) 
             )
         );
         

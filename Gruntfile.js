@@ -35,7 +35,7 @@ module.exports = function(grunt) {
                     config: 'assets/icon-font/config.json',
                     fonts: 'assets/icon-font/font',
                     styles: 'assets/icon-font/css',
-                    scss: true,
+                    scss: false,
                     force: true
                 }
             }

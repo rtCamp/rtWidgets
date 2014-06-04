@@ -3,7 +3,7 @@
  * Plugin Name: rtWidgets
  * Plugin URI: https://rtcamp.com/rtwidgets/
  * Description: This installs multiple custom widgets in one activation. All the custom widgets are translation ready.
- * Version: 1.3
+ * Version: 1.2.1
  * Author: rtCamp
  * Author URI: https://rtcamp.com/
  * Text Domain: rtwidgets
@@ -144,8 +144,6 @@ class rtWidgets {
      */
     public function rtw_enqueue_assets() {
         if ( !is_admin() ) {
-            wp_enqueue_script( 'rtw-toc-script', RTWIDGETS_ASSETS . 'js/rtw.toc.js', array( 'jquery', ), '1.0', TRUE );
-            wp_enqueue_script( 'rtw-plugin-script', RTWIDGETS_ASSETS . 'js/rtwidgets-scripts.js', array( 'jquery', 'rtw-toc-script' ), '1.0', TRUE );
             wp_enqueue_style( 'rtw-icon-fonts', RTWIDGETS_ASSETS . 'icon-font/css/rtw-fontello.css', array(), '1.0' );
             wp_enqueue_style( 'rtw-plugin-css', RTWIDGETS_ASSETS . 'rtwidgets-style.css', array( 'rtw-icon-fonts' ), '1.0' );
         }

@@ -3,10 +3,10 @@ Contributors: rtcamp, manishsongirkar36, hrishiv90
 Tags: widget, sidebar, custom widget, social connect, feed, category, menu, comments, subscribe, gravatar, multiple widgets
 Donate link: https://rtcamp.com/donate/
 Requires at least: WordPress 3.8
-Tested up to: WordPress 3.8
+Tested up to: WordPress 3.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 1.3
+Stable tag: 1.2.1
 
 This installs multiple custom widgets in one activation. All the custom widgets are translation ready.
 
@@ -19,7 +19,6 @@ This plugin contains the list of below mentioned custom widgets:
 1. **rtw: Comments with Gravatar** - This show the list of recent comments with commenter gravatar.
 1. **rtw: Multiple Menus** - It provides 2 custom menu options, for each of which we can select the respective menu.
 1. **rtw: Subscribe Widget** - It provides these email subscription options, like Feedburner and MailChimp. Also, provide social connect options where you can change order of social icons. Using WordPress filter you can add multiple social connect icons like rss, facebook, github-circled, youtube, flickr-circled, vimeo, twitter, gplus, pinterest, linkedin, stumbleupon, instagram, paypal, picasa, soundcloud, wordpress, blogger, delicious, deviantart, digg, foursquare, reddit, stackoverflow, tumblr
-1. **rtw: TOC Widget** - This widget automatically creates a table of contents with various options.
 
 == Installation ==
 Automatic Installation
@@ -47,8 +46,9 @@ Its just that we are hyperactive on our own forum!
 
 == Changelog ==
 
-= 1.3 =
-* Added Table of Content (TOC) widget
+= 1.2.1 =
+* Update Grunt Packages
+* Minor changes
 
 = 1.2 =
 * Update plugin documentations
@@ -58,5 +58,6 @@ Its just that we are hyperactive on our own forum!
 
 == Upgrade Notice ==
 
-= 1.2 =
-* Update plugin documentations
+= 1.2.1 =
+* Update Grunt Packages
+* Minor changes
