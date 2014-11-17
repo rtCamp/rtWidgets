@@ -42,9 +42,8 @@ Its just that we are hyperactive on our own forum!
 
 ## Changelog ##
 
-#### 1.2.1 ####
+#### 1.2.2 ####
 * Update Grunt Packages
-* Minor changes
 
 #### 1.2 ####
 * Update plugin documentations
@@ -55,3 +54,6 @@ Its just that we are hyperactive on our own forum!
 #### 1.2.1 ####
 * Update Grunt Packages
 * Minor changes
+
+#### 1.2.2 ####
+* Update Grunt Packages

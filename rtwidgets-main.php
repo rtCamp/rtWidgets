@@ -3,7 +3,7 @@
  * Plugin Name: rtWidgets
  * Plugin URI: https://rtcamp.com/rtwidgets/
  * Description: This installs multiple custom widgets in one activation. All the custom widgets are translation ready.
- * Version: 1.2.1
+ * Version: 1.2.2
  * Author: rtCamp
  * Author URI: https://rtcamp.com/
  * Text Domain: rtwidgets
