@@ -1,10 +1,12 @@
 # rtWidgets #
 
+This installs multiple custom widgets in one activation. All the custom widgets are translation ready.
+
+<a href="https://rtcamp.com/?utm_source=github&utm_medium=readme" rel="nofollow"><img src="https://rtcamp.com/wp-content/uploads/2019/04/github-banner@2x.png" alt="Handcrafted Enterprise WordPress Solutions by rtCamp" /></a>
+
 * **Contributors:** [rtcamp] (http://profiles.wordpress.org/rtcamp), [manishsongirkar36] (http://profiles.wordpress.org/manishsongirkar36), [hrishiv90] (http://profiles.wordpress.org/hrishiv90),
 
 * **License:** [GPL v2 or later] ( http://www.gnu.org/licenses/gpl-2.0.html)
-
-This installs multiple custom widgets in one activation. All the custom widgets are translation ready.
 
 ## Description ##
 This plugin is assortment of custom widgets. On activating this, we can install multiple custom widgets at once. For convenience, it also provides an option to activate or deactivate the widgets. All the widgets installed by this plugin are translation ready.
